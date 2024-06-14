@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Main container part of calculator */
+#main-container {
+    width: 400px;
+    height: 500px;
+    background-color:mediumpurple;
+    border: 2px solid black;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+/* Row 1's styling has no buttons */
+.row-1 {
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+    background-color: bisque;
+    justify-content: flex-end;
+    align-items: center;
+    height: 12%;
+    border-radius: 10px;
+    /* padding: 8px; */
+    
+}
+
+#input-field {
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+#clear {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.clear-button {
+    width: 90px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 48px;
+    border: 2px solid black;
+    margin-right: 6px;
+}
+
+
+
+/* Styling the buttons */
+.normal-row {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-around;
+}
+
+.normal-row > button {
+    width: 90px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 48px;
+}
+
+.ending-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4px;
+    margin-top: 16px;
+}
+
